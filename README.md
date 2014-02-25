@@ -34,7 +34,13 @@ If you have node, it simply uses n to install the specified version. It will ins
 Caveats
 =======
 
+Linux 64bit
+-----------
 This module makes no attempt to support anything other than 64 bit Linux for the initial bootstrap. Pull requests welcome!
+
+curl
+----
+`n` needs an installed version of `curl`. If you are working with a slimmed down version of Linux, make sure you install it before using the `nodejs` module.
 
 NOTE
 ====
